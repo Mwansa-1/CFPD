@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+    background-color: #212529;
+    margin-top: -0.5rem;
+    padding: 0.5rem;
+}
+
+#links {
+    display: flex;
+    gap: 3rem;
+}
+
+p {
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#donate,
+#logo {
+    align-self: center;
+}
+
+#donateBtn {
+    background-color: #FF0000;
+    padding: 1rem;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
