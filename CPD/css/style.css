@@ -3,10 +3,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+/* Navigation Start  for desktop */
+
 #nav {
     display: flex;
     flex-direction: row;
-    gap: 50%;
     background-color: #212529;
     margin-top: -0.5rem;
     padding: 0.5rem;
@@ -15,6 +17,7 @@ body {
 #links {
     display: flex;
     gap: 3rem;
+    align-items: end;
 }
 
 p {
@@ -29,13 +32,60 @@ a {
 #donate,
 #logo {
     align-self: center;
+    align-items: start;
+    flex: 1;
 }
 
-#donateBtn {
+.donateBtn {
     background-color: #FF0000;
     padding: 1rem;
     text-decoration: none;
     border: none;
     color: white;
     border-radius: 3px;
+}
+
+@media screen and (min-width: 700px) {
+    #slDiv {
+        display: none;
+    }
+    #nav2 {
+        display: none;
+    }
+}
+
+
+/* Navigation end */
+
+
+/* Navigation for mobile */
+
+@media screen and (max-width: 700px) {
+    #links {
+        display: none;
+    }
+    #logo {
+        display: flex;
+        flex-direction: row;
+        gap: 0.2rem;
+    }
+    #slogan::before {
+        content: " | ";
+    }
+    #nav2 {
+        display: flex;
+        flex-direction: row;
+        background-color: #d9d9d9;
+    }
+    #menu {
+        align-items: start;
+        flex: 1;
+        align-self: center;
+    }
+    #mobileDonate {
+        margin: auto;
+        align-self: center;
+        align-items: end;
+        flex: 1.5;
+    }
 }
