@@ -12,12 +12,11 @@ body {
     flex-direction: row;
     background-color: #212529;
     padding: 0.5rem;
-    position:fixed;
+    position: fixed;
     top: 0;
     width: 100%;
     bottom: auto;
     z-index: 2;
-    
 }
 
 #links {
@@ -97,21 +96,45 @@ a {
         align-items: end;
         flex: 1.5;
     }
-} 
-/* this is for the carousel*/
-.sldimages {
-    height:auto ;
-    width:100% ;
-    
 }
-#myCarousel{
+
+
+/* this is for the carousel*/
+
+.sldimages {
+    height: auto;
+    width: 100%;
+}
+
+#myCarousel {
     position: relative;
     z-index: 1;
     margin-top: 2rem;
 }
-#txtonsldimages{
 
+
+/* For editing how the pictures slide (Optional) */
+
+
+/* .carousel-inner .item {
+    transition: transform 1s ease !important;
+}
+
+.carousel-inner .item.active.left {
+    transform: translateX(-100%) !important;
+}
+
+.carousel-inner .item.next {
+    transform: translateX(0%) !important;
+}
+
+.carousel-inner .item.prev,
+.carousel-inner .item.active.right {
+    transform: translateX(100%) !important;
+} */
+
+#txtonsldimages {
     position: relative;
-    z-index:1;
-    top:1rem;
+    z-index: 1;
+    top: 1rem;
 }
