@@ -87,9 +87,7 @@ a {
         top: 4.5rem;
     }
     #menu {
-        align-items: start;
-        flex: 1;
-        align-self: center;
+       
     }
     #mobileDonate {
         margin: auto;
@@ -100,7 +98,9 @@ a {
 } 
 /* this is for the carousel*/
 .sldimages {
-    height:auto ;
+    height:auto ; align-items: start;
+        flex: 1;
+        align-self: center;
     width:100% ;
     
 }
@@ -114,4 +114,32 @@ a {
     position: relative;
     z-index:1;
     top:1rem;
+    text-align: center;
+    color: #251c1c;
 }
+
+/* start of footer */
+
+        footer {
+            background-color: #212529;
+            padding: 80px;
+            text-align: left;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index:3;
+    
+        }
+      
+        
+
+        
+
+
+    
+    
+
+
+
+
