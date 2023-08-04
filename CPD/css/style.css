@@ -86,7 +86,9 @@ a {
         top: 4.5rem;
     }
     #menu {
-       
+        align-items: start;
+        flex: 1;
+        align-self: center;
     }
     #mobileDonate {
         margin: auto;
@@ -94,14 +96,6 @@ a {
         align-items: end;
         flex: 1.5;
     }
-} 
-/* this is for the carousel*/
-.sldimages {
-    height:auto ; align-items: start;
-        flex: 1;
-        align-self: center;
-    width:100% ;
-    
 }
 
 
@@ -119,29 +113,28 @@ a {
 }
 
 
-
-/* start of footer */
-
-        footer {
-            background-color: #212529;
-            padding: 80px;
-            text-align: left;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            z-index:3;
-    
-        }
-      
-        
-
-        
+/* For editing how the pictures slide (Optional) */
 
 
-    
-    
+/* .carousel-inner .item {
+    transition: transform 1s ease !important;
+}
 
+.carousel-inner .item.active.left {
+    transform: translateX(-100%) !important;
+}
 
+.carousel-inner .item.next {
+    transform: translateX(0%) !important;
+}
 
+.carousel-inner .item.prev,
+.carousel-inner .item.active.right {
+    transform: translateX(100%) !important;
+} */
 
+#txtonsldimages {
+    position: relative;
+    z-index: 1;
+    top: 1rem;
+}
