@@ -94,7 +94,6 @@ a {
         align-items: end;
         flex: 1.5;
     }
-<<<<<<< HEAD
 } 
 /* this is for the carousel*/
 .sldimages {
@@ -103,8 +102,6 @@ a {
         align-self: center;
     width:100% ;
     
-=======
->>>>>>> 8b581f6f57d7263fa17fe3ac1a8131df348175de
 }
 
 
@@ -121,13 +118,7 @@ a {
     margin-top: 2rem;
 }
 
-<<<<<<< HEAD
-    position: relative;
-    z-index:1;
-    top:1rem;
-    text-align: center;
-    color: #251c1c;
-}
+
 
 /* start of footer */
 
@@ -154,31 +145,3 @@ a {
 
 
 
-=======
-
-/* For editing how the pictures slide (Optional) */
-
-
-/* .carousel-inner .item {
-    transition: transform 1s ease !important;
-}
-
-.carousel-inner .item.active.left {
-    transform: translateX(-100%) !important;
-}
-
-.carousel-inner .item.next {
-    transform: translateX(0%) !important;
-}
-
-.carousel-inner .item.prev,
-.carousel-inner .item.active.right {
-    transform: translateX(100%) !important;
-} */
-
-#txtonsldimages {
-    position: relative;
-    z-index: 1;
-    top: 1rem;
-}
->>>>>>> 8b581f6f57d7263fa17fe3ac1a8131df348175de
