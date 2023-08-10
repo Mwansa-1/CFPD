@@ -122,16 +122,20 @@ a {
         width:100% ;
         padding:3rem ;
         bottom: 0;
-        gap: 8rem;
+        gap: 1rem;
+
      /* position: fixed; */
     
     }
     #footerbuttons{
         display: flex;
+        flex-direction: column;
     }
     #footerdonate{
         margin: auto;
         align-self: center;
+        padding-bottom:3rem ;
+
         
     }
 
@@ -179,3 +183,11 @@ a {
 }
 
 /* footer mobile */
+
+#socialhandles{
+    display: flex ;
+    gap: 10rem;
+    align-self: center;
+
+}
+
