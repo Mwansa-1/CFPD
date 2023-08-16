@@ -4,7 +4,25 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 /* Navigation Start  for desktop */
 
 #nav {
@@ -54,20 +72,29 @@ a {
     #slDiv {
         display: none;
     }
-    #nav2 {
+    #nav2,#line {
         display: none;
     }
     #FOOTER{
         display: flex;
         flex-direction: row;
-        background-color: #212529;
-        height:20rem ;
+        gap: 13rem;
+    
+    }
+    #footerdonate
+    {
+        align-self: self-end;
+        flex:3;
+
+    }
+    
+
+    #ftrbck{
+ background-color: #212529;
+        height:25rem ;
         width:100% ;
         padding:3rem ;
         bottom: 0;
-        gap: 8rem;
-     /* position: fixed; */
-    
     }
     
     div#whatwedo  {order: 1;}
@@ -117,24 +144,29 @@ a {
     #FOOTER{
         display: flex;
         flex-direction: column;
-        background-color: #212529;
-        height:fit-content;
-        width:100% ;
-        padding:3rem ;
-        bottom: 0;
         gap: 1rem;
 
      /* position: fixed; */
     
     }
+
+    #ftrbck{
+        background-color: #212529;
+        height:fit-content;
+        width:100% ;
+        padding:3rem ;
+        bottom: 0;
+    }
     #footerbuttons{
         display: flex;
         flex-direction: column;
+        gap: 1rem;
     }
-    #footerdonate{
+    #footerBecomeADonor{
         margin: auto;
         align-self: center;
         padding-bottom:3rem ;
+
 
         
     }
@@ -186,7 +218,7 @@ a {
 
 #socialhandles{
     display: flex ;
-    gap: 10rem;
+    gap: 3rem;
     align-self: center;
 
 }

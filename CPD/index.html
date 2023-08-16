@@ -59,11 +59,20 @@
         </div>
     </div>
     <div id="nav2">
-        <div id="menu">
-            <div id="menuBtn">
-                <img src="images/menu.png" alt="menu" id="menuImg" />
+        <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div id="menu">
+                <div id="menuBtn">
+                    <img src="images/menu.png" alt="menu" id="menuImg" />
+                </div>
             </div>
-        </div>
+          </a>
+        
+        
         <div id="mobileDonate">
             <a href="donate.html">
                 <button class="donateBtn"> <strong>DONATE</strong> </button>
@@ -114,61 +123,82 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores illum tempore maiores explicabo ratione iste est quam perferendis deserunt modi itaque, porro dolorem sequi recusandae veritatis hic voluptates laborum? Suscipit commodi deserunt qui repellat nulla placeat quod eum voluptatem, reprehenderit eveniet mollitia tenetur asperiores accusamus? Blanditiis vitae necessitatibus earum neque et natus enim! Odit dolores asperiores maxime voluptatem dolore nobis nemo labore, aspernatur quos incidunt tenetur itaque, delectus eos veniam quo nihil doloremque autem provident quae, quia iste laudantium. Unde eius ea similique accusamus dignissimos veniam distinctio magnam laborum error voluptates esse iste nesciunt, perspiciatis fugiat, et ipsum necessitatibus!</p>
     </div>
 
-<footer id="FOOTER" style="color: white;">
-    <div id="whatwedo">
-        <p><strong>What we do</strong></p>
-        <ul>
-            <li>
-                what we offer
-            </li>
-            <li>
-                home schooling
-            </li>
-            <li>
-                manegement
-            </li>
-            <li>
-                research services
-            </li>
-        </ul>
+<footer id="ftrbck"  style="color: white;">
+    <div id="FOOTER" >
+        <div id="whatwedo">
+            <p><strong>What we do</strong></p>
+            <ul>
+                <li>
+                    what we offer
+                </li>
+                <li>
+                    home schooling
+                </li>
+                <li>
+                    manegement
+                </li>
+                <li>
+                    research services
+                </li>
+            </ul>
+        </div>
+        <div id="quicklinks">
+            <p>Quick links</p>
+        </div>
+    
+        <div id="wanttovolunteer">
+            <p>Want to volunteer?</p>
+        
+        </div>
+    
+        <div id="footerbuttons">
+            <div id="line">
+                <hr>
+            </div>
+            <center>
+                <div id="footerdonate"> 
+                    <a href="donate.html">
+                        <button class="donateBtn"> <strong>Become a Donor</strong> </button>
+                    </a>
+                </div>
+            </center>
+    <br>
+    
+    
+    <div id="socialhandles">
+    <div id="whatsapp"><img src="images/icons8-whatsapp-48.png" alt=""></div>
+    <div id="facebook"><img src="images/icons8-facebook-48.png" alt=""></div>
+    <div id="email"> <img src="images/icons8-email-48.png" alt=""></div>
     </div>
-    <div id="quicklinks">
-        <p>Quick links</p>
-    </div>
-
-    <div id="wanttovolunteer">
-        <p>Want to volunteer?</p>
+    
+    
+    
+    
+        </div>
     
     </div>
+    
 
-    <div id="footerbuttons">
-        <div id="line">
-            <hr>
-        </div>
-<div id="footerdonate"> 
-    <a href="donate.html">
-        <button class="donateBtn"> <strong>DONATE</strong> </button>
-    </a>
-</div>
-
-<div id="socialhandles"><div id="whatsapp"><img src="images/icons8-whatsapp-48.png" alt=""></div>
-<div id="facebook"><img src="images/icons8-facebook-48.png" alt=""></div>
-<div id="email"> <img src="images/icons8-email-48.png" alt=""></div>
-</div>
-
-<center style="padding-top: 3rem;">
-    <p style="color: rgb(249, 249, 255);">
-        
-        CPD | &COPY;2023
-    </p>
-</center>
-
-
-    </div>
-
+    <center style="padding-top: 3rem;">
+        <p style="color: rgb(249, 249, 255);">
+            
+            CPD | &COPY;2023
+        </p>
+    </center>
   
 </footer>
 
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+</script>
 
 </body>
 
