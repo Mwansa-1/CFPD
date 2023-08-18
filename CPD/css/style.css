@@ -78,7 +78,7 @@ a {
     #FOOTER{
         display: flex;
         flex-direction: row;
-        gap: 13rem;
+        gap: 20rem;
     
     }
     #footerdonate
