@@ -78,7 +78,7 @@ a {
     #FOOTER{
         display: flex;
         flex-direction: row;
-        gap: 20rem;
+        gap: 27rem;
     
     }
     #footerdonate
@@ -96,6 +96,10 @@ a {
         padding:3rem ;
         bottom: 0;
     }
+    #signup{
+        width: 100%;
+    }
+
     
     div#whatwedo  {order: 1;}
     div#quicklinks  {order: 2;}
@@ -139,6 +143,9 @@ a {
         align-self: center;
         align-items: end;
         flex: 1.5;
+    }
+    #signup{
+        width: 40%;
     }
 
     #FOOTER{
